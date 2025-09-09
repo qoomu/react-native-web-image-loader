@@ -31,6 +31,9 @@ class AdaptiveImage {
   toString() {
     return this.uri
   }
+  toJSON() {
+    return this.data
+  }
 }
 
 export default AdaptiveImage
